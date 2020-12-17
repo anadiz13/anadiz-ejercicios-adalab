@@ -1,0 +1,14 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cajita {
+  padding: 20px;
+}
+.caja-roja {
+  background-color: aqua;
+}
+
+.caja-verde {
+  background: coral;
+}

@@ -1,0 +1,28 @@
+div {
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+.first-display {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.second-display {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+.third-display {
+  display: inline;
+  height: 100px;
+  width: 100px;
+}
+
+.forth-display {
+  display: none;
+  height: 100px;
+  width: 100px;
+}
