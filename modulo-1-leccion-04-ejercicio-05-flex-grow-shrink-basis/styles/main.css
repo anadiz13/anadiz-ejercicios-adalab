@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+}
+.header-container {
+  background: grey;
+}
+
+.main-container {
+  background: darkgrey;
+}
+
+.footer-container {
+  background: darkorange;
+}

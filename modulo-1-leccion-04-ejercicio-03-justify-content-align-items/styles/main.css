@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+
+.item-1 {
+  padding-left: 20px;
+}
+
+.item-5 {
+  padding-right: 20px;
+}

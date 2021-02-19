@@ -1,0 +1,8 @@
+* {
+  margin: 0px;
+}
+.inline {
+  display: inline;
+  margin-left: 12px;
+  margin-right: 12px;
+}

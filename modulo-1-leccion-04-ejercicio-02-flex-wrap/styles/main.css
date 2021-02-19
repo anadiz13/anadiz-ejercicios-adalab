@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 500px;
+  width: 700px;
+  border: 3px solid cadetblue;
+}
+.items {
+  padding: 10px;
+  border: 3px solid blueviolet;
+  background: chocolate;
+
+  text-align: center;
+  font-size: 16px;
+
+  width: 200px;
+  height: 100px;
+}

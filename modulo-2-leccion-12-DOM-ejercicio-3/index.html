@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ejercicio</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <main class="container js-container">
+      <form action="/signup" method="post">
+        <label for="firstName">Nombre</label>
+        <select id="fillelements" name="fillelements">
+          <option value="Name">nombre</option>
+          <option value="firstName">Apellidos</option>
+          <option value="lastName">Telefono</option>
+          <input type="text" name="firstName" />
+        </select>
+        <label for="lastName">Apellidos</label>
+        <input type="text" name="lastName" />
+        <label for="telephone">Telefono</label>
+        <input type="tel" id="telephone" name="telephone" />
+      </form>
+    </main>
+    <script src="./script/main.js"></script>
+  </body>
+</html>

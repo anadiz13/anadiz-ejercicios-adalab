@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <form class="columna" action="/signup" method="POST">
+      <label for="firstname">NOMBRE</label>
+      <input
+        placeholder="escribe tu nombre"
+        id="firstname"
+        type="text"
+        name="firstName"
+      />
+
+      <label for="surname">APELLIDO</label>
+      <input
+        placeholder="escribe tu apellido"
+        id="surname"
+        type="text"
+        name="surname"
+      />
+      <label for="email">CORREO ELECTRÓNICO</label>
+      <input
+        placeholder="escribe tu email"
+        id="email"
+        type="email"
+        name="email"
+      />
+      <label for="dni">DNI</label>
+      <input placeholder="escribe tu DNI" id="dni" type="text" name="dni" />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
